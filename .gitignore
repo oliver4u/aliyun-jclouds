@@ -12,3 +12,7 @@ test-output/
 *.iml
 *.ipr
 *.iws
+
+# vscode
+.vscode/
+*.factorypath

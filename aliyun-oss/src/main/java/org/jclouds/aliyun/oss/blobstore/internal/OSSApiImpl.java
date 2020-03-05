@@ -11,7 +11,7 @@ import org.jclouds.location.Provider;
 import org.jclouds.location.suppliers.RegionIdsSupplier;
 
 import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSClient;
+import com.aliyun.oss.OSSClientBuilder;
 import com.google.common.base.Supplier;
 
 public class OSSApiImpl implements OSSApi {
@@ -35,7 +35,7 @@ public class OSSApiImpl implements OSSApi {
    @Override
    public OSS getOSSClient(String region) {
       String endpoint = region + INTERNET_ENDPOINT_SUFFIX;
-      return new OSSClient(endpoint, identity, credential);
+      return new OSSClientBuilder().build(endpoint, identity, credential);
    }
 
    @Override

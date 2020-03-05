@@ -31,12 +31,12 @@ public class OSSBlobRequestSigner implements BlobRequestSigner {
       return req;
    }
 
-   @Override
-   public HttpRequest signRemoveBlob(String container, String name) {
-      HttpRequest req = HttpRequest.builder()
-            .build();
-      return req;
-   }
+   // @Override
+   // public HttpRequest signRemoveBlob(String container, String name) {
+   //    HttpRequest req = HttpRequest.builder()
+   //          .build();
+   //    return req;
+   // }
 
    @Override
    public HttpRequest signPutBlob(String container, Blob blob) {

@@ -1,6 +1,7 @@
 # compile
 target/
 test-output/
+bin/
 
 # eclipse
 .settings/

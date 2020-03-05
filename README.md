@@ -14,7 +14,7 @@ aliyun-jclouds adapt for jclouds to use cloud service of [aliyun](https://www.al
 |aliyun-oss|BlobStore||
 |aliyun-slb|LoadBalancerService|Removed in this repo|
 
-For aliyun-ecs/slb, refer to origin [repo](https://github.com/aliyun-beta/aliyun-jclouds).
+For aliyun-ecs/slb, refer to original [repo](https://github.com/aliyun-beta/aliyun-jclouds).
 
 ### Maven
 
